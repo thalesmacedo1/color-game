@@ -1,0 +1,71 @@
+body {
+    background:#232323;
+    margin: 0;
+    user-select: none;
+}
+
+h1 {
+    background: #141E30;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: Georgia, sans-serif;
+    font-weight: normal;
+    padding: 14px 0;
+}
+
+h1 span {
+    font-size: 2em;
+    font-family: serif;
+    text-transform: uppercase; 
+}
+
+.stripes {
+    display: inline-block;
+    background-color: white;
+    padding: 0 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.stripes span {
+    display: inline-block;
+    width: 20%;
+}
+
+button {
+    border-style: none;
+    background: none;
+    color: #243B55;
+    font-weight: bold;
+    font-size: inherit;
+    height: 100%;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.stripes button:hover{
+    background-color: #243B55;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.container .squares {
+    float: left;
+    width: 30%;
+    height: 180px;
+    background-color: lawngreen;
+    margin: 1.6%;
+    border-radius: 10%;
+}
+
+.selected {
+    background-color:#232323;
+    color: white;
+}
